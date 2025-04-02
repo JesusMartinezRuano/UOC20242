@@ -1,3 +1,3 @@
-student@uoc.edu
-Surname, Name
-Windows 11
+jmartinezrua@uoc.edu
+Martínez Ruano, Jesús
+Ubuntu-24.04
