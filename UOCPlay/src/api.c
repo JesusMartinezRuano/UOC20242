@@ -71,7 +71,7 @@ tApiError api_initData(tApiData* data) {
     assert(data != NULL);
 
     // Inicializar la lista de personas
-    tApiError error = people_init(&data->personList);
+    tApiError error = people_init(&data->people); // Cambiado de personList a people
     if (error != E_SUCCESS) {
         return error;
     }

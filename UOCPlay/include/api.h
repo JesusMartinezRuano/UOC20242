@@ -9,13 +9,11 @@
 
 #define FILE_READ_BUFFER_SIZE 2048
 
-// Type that stores all the application data
+// Estructura para almacenar los datos de la API
 typedef struct _ApiData {
-    /////////////////////////////////
-	// PR1_3a
-	/////////////////////////////////
-    
-    /////////////////////////////////
+    tPeople people;                  // Lista de personas
+    tSubscriptions subscriptionList; // Lista de suscripciones
+    tCatalog catalog;                // Catálogo de películas
 } tApiData;
 
 // Get the API version information
